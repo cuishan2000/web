@@ -1,0 +1,19 @@
+body{
+	color:grey;
+	font-size:12px;
+	font-family: 'Arial';
+	line-height: 2em;
+}
+a{
+	color:#727272;
+	text-decoration: none;}
+a:hover{text-decoration: underline;}
+#s{font-size: 14px;
+	color:#b9f605;
+	font-weight: bold;}
+.menu{
+	color:white;
+}	
+.a:hover{text-decoration: none;color:#b9f605;}
+.special:hover{text-decoration: none;color:#b9f605;}
+.special{color: #fdb306;}
