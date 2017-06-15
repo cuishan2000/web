@@ -1,0 +1,409 @@
+*{
+	padding: 0px;
+}
+body{
+	text-align: center;
+	font-size: 12px;
+	font-family: '宋体'；
+	color: #522a06;
+	background-image: url(../image/bodybg.gif);
+}
+img{
+	border: none;
+}
+a{
+	color: #522a06;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+#header{
+	height: 165px;
+	background-image: url(../image/bg.gif);
+	background-repeat:repeat-x;
+	background-position: center top;
+}
+#banner{
+	width: 1000px;
+	height: 125px;
+	margin-left: -150px;
+	padding-top: 38px;
+	padding-left: 25px;
+}
+#nav{
+	height: 40px;
+	background-image: url(../image/nav.jpg);
+	margin-top: -10px;
+}
+.nav_body{
+	width: 1000px;
+	text-align: center;
+	margin-left: 180px;
+}
+.nav_content{
+	width: 800px;
+}
+.nav_content ul{
+	list-style: none;
+}
+.nav_content ul li{
+	float: left;
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+	font-weight: bold;
+	margin-left: 10px;
+}
+.nav_content ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+.nav_content ul li a:hover{
+	color: #f9f603;
+	text-decoration: underline;
+}
+.fir{
+	color: #f9f603;
+}
+.nav_search{
+	width:190px; 
+	
+	float: right;
+	margin-top: 7px;
+}
+.nav_search [type="text"]{
+	width: 140px;
+	height: 21px;
+	background-color: #f8f5ee;
+}
+.nav_search [type="button"]{
+	width: 44px;
+	height: 21px;
+	background-color: #000;
+	color: #fff;
+	margin-left: -3px;
+	padding-right: -10px;
+	border: 1px #f8f5ee solid;
+}
+/*内容部分*/
+.content{
+	width: 1000px;
+	text-align: center;
+	margin-top: 50px;
+	margin-left: 200px;
+	float: none;
+	border: 1px #ff0000 solid;
+	padding-left: 0px;;
+}
+.content_top{
+	width: 990px;
+	overflow: hidden;
+	text-align: center;
+	/*margin-left: 200px;*/
+	padding-left: 0px;
+}
+.news_pic{
+	width: 324px;
+	height: 243px;
+	background-image: url(../image/news_bg.png);
+	float: left;
+	margin-top: 20px;
+}
+.news{
+	width: 300px;
+	height: 200px;
+	padding-top:10px;
+	padding-left: 10px
+}
+.word{
+	width: 300px;
+	height: 22px;
+	color: #522a06;
+	text-align: center;
+	padding-top: 5px;
+}
+.news_list{
+	width: 330px;
+	float: left;
+	margin-top: 20px;
+	padding-left: 15px;
+}
+.img{
+	margin-left: 20px;
+}
+.one{
+	float: left;
+}
+.two{
+	float:right;
+}
+
+.list ul{
+	list-style: none;
+	padding-left: 15px;
+	margin-top: 5px;
+	float: left;
+}
+.list ul li{
+	line-height: 30px;
+	text-align: left;
+}
+.list ul li a{
+	color: #522a06;
+	text-decoration: none;
+}
+.list ul li a:hover{
+	text-decoration: underline;
+}
+.date{
+	float: right;
+	padding-left: 20px;
+}
+.date1{
+	float: right;
+}
+.news_announce{
+	width: 277px;
+	margin-top: 20px;
+	float: right;
+	margin-right: 10px;
+}
+.pic{
+	width: 277px;
+	text-align: center;
+	margin-top: 20px;
+	padding-top: 10px;
+	float: right;
+}
+.announce{
+	width: 285px;
+	height: 210px;
+	background-image: url(../image/board_bg.png);
+	background-repeat:no-repeat;
+	margin-top: 10px;
+	float: left;
+}
+.announce ul{
+	padding-top: 0px;
+	list-style: none;
+	padding-left: 15px;
+	float: left;
+}
+.announce ul  li {
+	text-align: left;
+	line-height: 30px;
+}
+.announce ul li a{
+	color: #522a06;
+	text-decoration: none;
+}
+.announce ul li a:hover{
+	text-decoration: underline;
+}
+.content_bottom_left{
+	width: 730px;
+	float: left;
+	/*margin-left: 0px;*/
+	padding-left: 0px;
+}
+.academic{
+	width: 340px;
+	margin-top: -8px;
+}
+.aca{
+	width: 340px;
+	background-image: url(../image/academic.png);
+	float: right;
+	height: 54px;
+	text-align: right;
+}
+
+.four{
+	float: right;
+}
+.list_sec{
+	
+}
+.list_sec ul{
+	list-style: none;
+	text-align: left;
+	padding-left: 1px;
+}
+.list_sec ul li{
+	line-height: 30px;
+}
+.list_sec ul li a{
+	color: #522a06;
+	text-decoration: none;
+}
+.list_sec ul li a:hover{
+	text-decoration: underline;
+}
+.book_news{
+	width: 340px;
+	float: right;
+	margin-left: 25px;
+	margin-top: -213px;
+	margin-right: 25px;border: 1px #ff0000 solid;
+}
+.book{
+
+	width: 340px;
+	height: 54px;
+	background-image: url(../image/book_news.png);
+}
+.three{
+	float: right;
+}
+.list_third{
+	margin-top: -20px;
+}
+.list_third ul{
+	list-style: none;
+	text-align: left;
+	padding-left: 1px;
+	padding-top: -25px;
+}
+.list_third ul li{
+	line-height: 30px;
+	text-decoration: none;
+	text-align: left;
+	padding-top: -30px;
+	margin-top: 0px;
+}
+.list_third ul li a{
+	color:#522a06;
+	text-decoration: none;
+}
+.list_third ul li a:hover{
+	text-decoration: underline;
+}
+.fengcai{
+	width: 700px;
+	margin-top:210px;
+	/*margin-left: 200px;*/
+	padding-left: 0px;
+	float: both;
+}
+.title{
+	width: 700px;
+	height: 57px;
+	background-image: url(../image/fengcai_bg1.png);
+	background-repeat: no-repeat;
+	text-align: right;
+}
+.fc_pic{
+	width: 676px;
+	height: 176px;
+	background-image: url(../image/fengcai_bg2.png);
+	background-repeat: no-repeat;
+	margin-left: 10px;
+	text-align: center;
+}
+.fc_pic ul{
+	list-style: none;
+	
+}
+.fc_pic ul li{
+	float: left;
+	padding-top: 20px;
+	padding-left: 15px;
+
+}
+.fc_pic ul li a{
+	padding-left: 0px;
+}
+.fc_pic ul li a:hover{
+	text-decoration: underline;
+}
+.content_bottom_right{
+	width: 280px;
+	height: 450px;
+	float: right;
+	margin-top: -450px;
+	/*margin-right: 150px;*/
+	/*margin-left: -150;*/
+	/*padding-right: -100px;*/
+	border: 1px #ff0000 solid;
+	margin-right:150px;
+/*	margin-right: 0px;*/
+}
+.news_announce{
+	width: 277px;
+	margin-top: 20px;
+	float: right;
+	margin-right: 10px;
+}
+.bottom_pic{
+	padding-top: 20px;
+}
+.introduce{
+	width: 280px;
+	height: 362px;
+	margin-top: 20px;
+	background-image: url(../image/show_bg.png);
+	background-repeat: no-repeat;
+	margin-left: 10px;
+}
+.a{
+	padding-left: 0px;
+	padding-top: 20px;
+}
+.b{
+	color: #522a06;
+	width: 224px;
+	line-height: 20px;
+	padding-top: -10px;
+	margin-left: 25px;
+}
+.ming{
+	color: #AE0000;
+	font-weight: bolder;
+}
+.c{
+	text-align: right;
+	padding-right:25px;
+}
+.footer{
+	height: 105px;
+	float: both;
+	background-image: url(../image/foot.gif);
+	margin-top: 30px;
+}
+.link{
+	width: 600px;
+	text-align: center;
+	height: 50px;
+	margin-left: 450px;
+	margin-top: 10px;
+}
+
+.link ul{
+	list-style: none;
+}
+.link ul li{
+	color: #522a06;
+	font-weight: bolder;
+	float: left;
+	margin-left: 12px;
+	padding-top: -25px;
+}
+.link ul li a{
+	color: #522a06;
+	font-weight: bolder;
+	text-decoration: none;
+}
+.link ul li a:hover{
+	text-decoration: underline;
+}
+.foot_pic{
+	width: 530px;
+	margin-left: 420px;
+	margin-top: -15px;
+}
+.foot{
+	text-align: center;
+	color: #522a06;
+	margin-top: 10px;
+}
