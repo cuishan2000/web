@@ -1,0 +1,244 @@
+body{
+	text-align: center;
+	margin: 0 auto;
+	font-size: 16px;
+	background-image: url(../image/body.gif);
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	color: #f9f603;
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 16px;
+}
+.header{
+	height: 163px;
+	background-image: url(../image/banner_new.png);
+	border: 1px black solid;
+	background-repeat: no-repeat;
+}
+.logo{
+	margin-left: 217px;
+	margin-top: 25px;
+	text-align: left;
+}
+.nav{
+	height: 50px;
+	background-color:black;
+	text-align: center;
+	/*border: 1px #ff0000 solid;*/
+	margin-top: 76px;
+}
+.nav_pic{
+	width: 50px;
+	height: 50px;
+	text-align: left;
+}
+.nav_content{
+	width: 1000px;
+	height: 50px;
+	/*border: 1px #ff0000 solid;*/
+	margin-top: -50px;
+	margin-left: 200px;
+
+}
+.nav_content ul{
+	list-style: none;
+}
+.nav_content ul li{
+	float: left;
+	margin-left: 30px;
+}
+.nav_content ul li a{
+	text-decoration: none;
+	color: white;
+	font-weight: bolder;
+}
+.nav_content [type="text"]{
+	width: 150px;
+	height: 20px;
+	margin-top: -15px;
+}
+.nav_content [type="button"]{
+	width: 50px;
+	height: 27px;
+	background-color: black;
+	color: #fff;
+}
+.content{
+	width: 1000px;
+	margin-left: 180px;
+	text-align: center;
+	background-image: url(../image/comment2.jpg);
+}
+.music_title{
+	width: 900px;
+	height: 200px;
+	margin-top: 80px;
+	margin-left: 50px;
+	/*border: 1px #ff0000 solid;*/
+	background-image: url(../image/back.jpg);
+	background-repeat: no-repeat;
+	text-align: center;
+}
+.src{
+	margin-top: 45px;
+}
+.content_left{
+	width: 740px;
+/*	border: 1px #ff0000 solid;*/
+	margin-top: 65px;
+}
+.left_pic{
+	width: 260px;
+	height: 200px;
+	/*border: 1px #00ff78 solid;*/
+}
+.announce{
+	width: 460px;
+	float: left;
+	margin-left: 270px;
+}
+.ann_word{
+	/*border: 1px solid #00ff00;*/
+	width: 460px;
+	height: 42px;
+	font-size:38px;
+	text-align: left;
+	font-family: "华文行楷";
+	font-weight: bold;
+	margin-top: -200px;
+}
+.ann_pic{
+	float: right;
+}
+.spc{
+	font-family: "Comic Sans MS";
+	font-size: 24px;
+	font-style: italic;
+	font-weight: bold;
+}
+.ann_list{
+	/*border: 1px #0000ff solid;*/
+	width: 450px;
+}
+.ann_list ul li{
+	line-height: 30px;
+	text-align: left;
+	font-size: 14px;margin-left: -10px;
+}
+.ann_list ul li a{
+	color: black;
+}
+.sp{
+	float: right;
+}
+.singer{
+	width: 720px;
+	/*border: 1px solid #0000ff;*/
+	/*background-image: url(../image/music-c.jpg);*/
+}
+.singer_word{
+	width: 250px;
+	height: 40px;
+	font-size: 38px;
+	font-family: "华文行楷";
+	font-weight: bolder;
+	/*border: 1px solid #0000ff;*/
+	margin-top: 30px;
+}
+.pic_ku{
+	overflow: hidden;
+}
+.pic_ku ul{
+	text-align: center;
+	list-style: none;
+}
+.pic_ku ul li{
+	float: left;
+	margin-left: 30px;	
+}
+.pic_ku ul li a:hover{
+	opacity: 0.5;
+}
+.word1{
+	width: 720px;
+	height: 30px;
+/*	border: 1px solid #00ff00;*/
+	margin-left: -40px;
+	margin-top: -13px;
+}
+.word1 ul{
+	list-style: none;
+	margin-left:-20px;
+}
+.word1 ul li{
+	text-align: center;
+	float: left;
+	margin-left: 170px;
+	font-size: 18px;
+}
+.content_right{
+	width: 250px;
+	/*border:1px solid #00ff00;*/
+	float: right;
+	margin-top: -500px;
+}
+.signin{
+	width: 250px;
+	height: 150px;
+	font-size: 15px;
+	/*border: 1px solid #0000ff;*/
+	background-image: url(../image/music-d.jpg);
+}
+.spc2{
+	font-size: 20px;
+	font-weight: bold;
+}
+.advice{
+	width: 250px;
+	height: 300px;
+	margin-top: 45px;
+	background-image: url(../image/music-b.jpg);
+	background-repeat: no-repeat;
+}
+.ad_word{
+	font-size: 36px;
+	font-family: "华文行楷";
+	font-weight: bold;
+	padding-top: 10px;
+	margin-bottom: -8px;
+}
+.ad_list{
+	width: 250px;
+	padding-left: 0px;
+}
+.ad_list ul{
+	list-style: none;
+	/*border: 1px solid #00000f;*/
+	padding-left: 0px;
+}
+.ad_list ul li{
+	line-height: 33px;
+	text-align: left;
+	padding-left: -5px;
+	margin-left: 15px;
+	font-size: 14px;
+}
+.footer{
+	height: 150px;
+	background-image: url(../image/footer_pic.png);
+	/*text-align: center;*/
+}
+.footer ul{
+	list-style: none;
+	margin-left: 290px;
+}
+.footer ul li{
+	float: left;
+	margin-left: 20px;
+	margin-top: 30px;
+
+}
